@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main-header" >
+      <center>
+        <div class="col-md-6 col-12">
+          <figure class="errimg">
+            <img src="images/404.png" alt="Sonam" class="img-fluid" title="Sonam Rana">
+          </figure>
+          <p class="welcome_text">Welcome to WeatherApp</p>
+          <h1>{{errorMsg}}</h1>
+          <a href="/" ><button class="check_now">Go Back</button></a>
+        </div>
+      </center>  
+    </div>
+    <!-- footer  -->
+    {{>footer}}
+  </body>
+</html>
