@@ -12,6 +12,8 @@ const getInfo = async (event) => {
   let cityVal = cityName.value;
   if (cityVal === "") {
     city_name.innerText = `Please Enter City Name`;
+    temp_real_val.innerText = "0";
+    temp_status.innerHTML = "";
     datahide.classList.add("data_hide");
   } else {
     try {
